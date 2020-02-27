@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68fbcb6b-3b9c-40a9-a8a4-f5b8d24382eb" name="Default Changelist" comment="" />
+    <list default="true" id="68fbcb6b-3b9c-40a9-a8a4-f5b8d24382eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/leeson1.md" beforeDir="false" afterPath="$PROJECT_DIR$/01/leeson1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/timeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/01/timeline.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../h-diber" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +52,9 @@
       <workItem from="1582663542700" duration="68000" />
       <workItem from="1582663625728" duration="894000" />
       <workItem from="1582696220444" duration="645000" />
+      <workItem from="1582743025175" duration="350000" />
+      <workItem from="1582752193396" duration="12000" />
+      <workItem from="1582780723148" duration="1224000" />
     </task>
     <servers />
   </component>
@@ -55,6 +62,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="223" width="426" height="485" key="FileChooserDialogImpl" timestamp="1582752203720">
+      <screen x="0" y="25" width="1600" height="875" />
+    </state>
+    <state x="583" y="223" width="426" height="485" key="FileChooserDialogImpl/0.25.1600.875@0.25.1600.875" timestamp="1582752203720" />
     <state x="304" y="100" width="992" height="731" key="SettingsEditor" timestamp="1582663609068">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
