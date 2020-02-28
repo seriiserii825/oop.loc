@@ -1,0 +1,5 @@
+Pupkin;Vasya;1990-12-12
+Ivanov;Petya;1990-12-04
+Petrov;Misha;1990-12-19
+Sidorov;Andrey;1990-12-14
+Pupkin;Vasya;1990-12-23
