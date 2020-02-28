@@ -74,7 +74,7 @@
       <workItem from="1582743025175" duration="350000" />
       <workItem from="1582752193396" duration="12000" />
       <workItem from="1582834320336" duration="1744000" />
-      <workItem from="1582870043563" duration="2489000" />
+      <workItem from="1582870043563" duration="2065000" />
     </task>
     <servers />
   </component>
@@ -93,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="99" y="125" width="1402" height="680" key="DiffContextDialog" timestamp="1582836844358">
