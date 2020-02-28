@@ -13,8 +13,29 @@ class Student
 }
 
 $student = new Student();
+$student->firstName = 'Vasya';
 
-$student->lastName = 'Vasya';
-$student->firstName = 'Pupkin';
+$student2 = $student;
 
-echo $student->getFullName();
+$student2 = 10;
+
+var_dump($student);
+var_dump($student2);
+
+//$student = new Student();
+//$student->firstName = 'Vasya';
+//$student1->lastName = 'Pupkin';
+//
+//$student2 = $student1;
+//
+//$student2->firstName = 'Petya';
+
+//echo $student1->getFullName().PHP_EOL;
+//echo $student2->getFullName().PHP_EOL;
+
+
+//$array = [7, 9, 2];
+//
+//shuffle($array);
+//
+//var_dump($array);
