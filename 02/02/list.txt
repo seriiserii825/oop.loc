@@ -1,5 +1,3 @@
-Pupkin;Vasya;1990-12-12
-Ivanov;Petya;1990-12-04
-Petrov;Misha;1990-12-19
-Sidorov;Andrey;1990-12-14
-Pupkin;Vasya;1990-12-23
+Jarov;Ivan;14-3-36
+Curitin;Aleksey;18-8-56
+Starikov;Nicolai;14-6-74

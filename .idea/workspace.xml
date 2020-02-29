@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="" />
+    <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/02/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/02/02/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/02/list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/02/02/list.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +79,8 @@
       <workItem from="1582752193396" duration="12000" />
       <workItem from="1582834320336" duration="1744000" />
       <workItem from="1582870043563" duration="2065000" />
+      <workItem from="1582954764172" duration="3253000" />
+      <workItem from="1582958033894" duration="1169000" />
     </task>
     <servers />
   </component>
@@ -93,7 +99,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="99" y="125" width="1402" height="680" key="DiffContextDialog" timestamp="1582836844358">
@@ -112,10 +117,10 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1582663609068" />
-    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup" timestamp="1582872697907">
+    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup" timestamp="1582958781037">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
-    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1582872697907" />
+    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1582958781037" />
     <state x="623" y="289" width="672" height="678" key="search.everywhere.popup/0.25.1920.1175@0.25.1920.1175" timestamp="1582806632910" />
   </component>
 </project>
