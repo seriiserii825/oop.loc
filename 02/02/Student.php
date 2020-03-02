@@ -79,22 +79,29 @@ class CsvStudentRepository {
 //#########################A
 $type = 'txt';
 $file = __DIR__.'/list.txt';
-//$file = __DIR__.'/students.csv';
 
-switch ($type){
-	case "txt":
-		$studentRepository = new TxtStudentReposytory($file);
-		break;
+class RepositoryFactory {
+	public static function create($type, $file){
+		$studentRepository = '';
 
-	case "csv":
-		$studentRepository = new CsvStudentRepository($file);
-		break;
+		switch ($type){
+			case "txt":
+				$studentRepository = new TxtStudentReposytory($file);
+				break;
+
+			case "csv":
+				$studentRepository = new CsvStudentRepository($file);
+				break;
+		}
+		return $studentRepository;
+	}
 }
+
 //#########################A
 
-$students = $studentRepository->findAll();
+//	$students = RepositoryFactory::create($type, $file);
 
-foreach ($students as $student) {
-	echo $student->getFullName() . ' ' . $student->birthDate . PHP_EOL;
-}
+//foreach ($students as $student) {
+//	echo $student->getFullName() . ' ' . $student->birthDate . PHP_EOL;
+//}
 
