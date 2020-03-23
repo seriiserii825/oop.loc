@@ -60,8 +60,3 @@ function map($func, $items)
 	}
 	return $result;
 }
-
-
-
-
-
