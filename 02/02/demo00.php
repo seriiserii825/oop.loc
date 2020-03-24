@@ -14,9 +14,14 @@
 		}
 	}
 
-	class StudentRepository {
-		public function findAll($file){
-			$rows = file($file);
+	class TxtStudentRepository {
+		private $file;
+		public function __construct($file) {
+			$this->file = $file;
+		}
+
+		public function findAll(){
+			$rows = file($this->file);
 			foreach ($rows as $row) {
 				$values = array_map('trim', explode(';', $row));
 				$student = new Student($values[0], $values[1], $values[2]);
@@ -26,7 +31,7 @@
 			return $students;
 		}
 
-		public function saveAll(array $students, $file){
+		public function saveAll(array $students){
 			$rows = [];
 			foreach ($students as $student) {
 				$rows[] = implode(';', [
@@ -35,19 +40,46 @@
 					$student->birthDate
 				]);
 			}
-			file_put_contents($file, implode(PHP_EOL, $rows));
+			file_put_contents($this->file, implode(PHP_EOL, $rows));
 		}
-
 	}
 
+	class XmlStudentRepository {
+		private $file;
+		public function __construct($file) {
+			$this->file = $file;
+		}
 
+		public function findAll(){
+			$rows = simplexml_load_file($this->file);
+			$students = [];
+			foreach ($rows as $row) {
+				$students[] = new Student($row->lastName, $row->firstName, $row->birthDate);
+			}
+			return $students;
+		}
+		public function saveAll(){
+			return false;
+		}
+	}
 
-	$file = __DIR__ . '/list.txt';
-	$studentRepository = new StudentRepository();
+//	$type = 'txt';
+	$type = 'xml';
 
-	$students = $studentRepository->findAll($file);
+	switch ($type) {
+		case 'txt':
+			$studentRepository = new TxtStudentRepository(__DIR__ . '/list.txt');
+			break;
+		case 'xml':
+			$studentRepository = new XmlStudentRepository(__DIR__ . '/list.xml');
+			break;
+		default:
+			die('Incorrect type '.$type);
+	}
+
+	$students = $studentRepository->findAll();
 	foreach ($students as $student) {
 		echo $student->getFullName() . ' ' . $student->birthDate.PHP_EOL;
 	}
-	$studentRepository->saveAll($students, $file);
+	$studentRepository->saveAll($students);
 

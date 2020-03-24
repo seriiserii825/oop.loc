@@ -1,3 +1,18 @@
-Jarov;Ivan;14-3-36
-Curitin;Aleksey;18-8-56
-Starikov;Maxim;14-6-74
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <lastName>Sidorov</lastName>
+        <firstName>Petr</firstName>
+        <birthDate>12-04-1946</birthDate>
+    </student>
+    <student>
+        <lastName>Petrenco</lastName>
+        <firstName>Boris</firstName>
+        <birthDate>12-08-1964</birthDate>
+    </student>
+    <student>
+        <lastName>Rezantev</lastName>
+        <firstName>Stepan</firstName>
+        <birthDate>22-09-1965</birthDate>
+    </student>
+</students>
