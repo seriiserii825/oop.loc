@@ -31,6 +31,19 @@
 			return $students;
 		}
 
+		public function findByBirthDate($birthDate){
+			$rows = file($this->file);
+			$students = [];
+			foreach ($rows as $row) {
+				$values = array_map('trim', explode(';', $row));
+				if($values[2] === $birthDate){
+					$student = new Student($values[0], $values[1], $values[2]);
+					$students[] = $student;
+				}
+			}
+			return $students;
+		}
+
 		public function saveAll(array $students){
 			$rows = [];
 			foreach ($students as $student) {
@@ -63,8 +76,8 @@
 		}
 	}
 
-//	$type = 'txt';
-	$type = 'xml';
+	$type = 'txt';
+//	$type = 'xml';
 
 	switch ($type) {
 		case 'txt':
@@ -78,6 +91,8 @@
 	}
 
 	$students = $studentRepository->findAll();
+	$studentsByBirthDate = $studentRepository->findByBirthDate('14-3-36');
+
 	foreach ($students as $student) {
 		echo $student->getFullName() . ' ' . $student->birthDate.PHP_EOL;
 	}

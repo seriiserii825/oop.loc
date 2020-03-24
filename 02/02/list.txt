@@ -1,3 +1,4 @@
 Jarov;Ivan;14-3-36
 Curitin;Aleksey;18-8-56
 Starikov;Maxim;14-6-74
+Cucerenco;Trofim;14-3-36
