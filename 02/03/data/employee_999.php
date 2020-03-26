@@ -1,4 +1,4 @@
-<?php returnarray (
+array (
   'id' => 999,
   'name' => 
   array (
@@ -11,7 +11,7 @@
   ),
   'address' => 
   array (
-    'country' => 'Moldova',
+    'county' => 'Moldova',
     'city' => 'Chishinau',
   ),
-); ?>
+)
