@@ -18,17 +18,22 @@ class Name
 		return $this->last;
 	}
 
+	public function getFullName()
+	{
+		return $this->first.' '.$this->last;
+	}
+
 	/**
 	 * @param mixed $first
 	 */
-	public function setFirst(Name $first) {
+	public function setFirst($first) {
 		$this->first = $first;
 	}
 
 	/**
 	 * @param mixed $last
 	 */
-	public function setLast(Name $last) {
+	public function setLast($last) {
 		$this->last = $last;
 	}
 
@@ -121,28 +126,29 @@ class Employee
 	}
 
 	public function getId() { return $this->id; }
-	public function getName() { return $this->name; }
+	public function getName() { return $this->name->getFullName(); }
 	public function getPhone() { return $this->phone; }
 	public function getAddress() { return $this->address; }
 
 	/**
 	 * @param Name $name
 	 */
-	public function setName($name) {
-		$this->name = $name;
+	public function rename($firstName, $lastName) {
+		$this->name->setFirst($firstName);
+		$this->name->setLast($lastName);
 	}
 
 	/**
 	 * @param Phone $phone
 	 */
-	public function setPhone($phone) {
+	public function changePhone($phone) {
 		$this->phone = $phone;
 	}
 
 	/**
 	 * @param Address $address
 	 */
-	public function setAddress($address) {
+	public function changeAddress($address) {
 		$this->address = $address;
 	}
 }
@@ -150,8 +156,7 @@ class Employee
 class StaffService
 {
 	public function recruiteEmployee(Name $name, Phone $phone, Address $address) {
-		$employee = new Employee($this->generateId());
-
+		$employee = new Employee($this->generateId(), $name, $phone, $address);
 		$this->save($employee);
 		return $employee;
 	}
@@ -168,7 +173,8 @@ class StaffService
 $service = new StaffService();
 $employee = $service->recruiteEmployee(new Name('Vasya', 'Pupkin'), new Phone('373', '444444'), new Address('Molova', 'Cahul', 'Miroshnichenko 14'));
 
+echo $employee->getName() . PHP_EOL;
 
-echo $employee->phone->getNumber() . PHP_EOL;
+$employee->rename('Vova', 'Putin');
 
-
+echo $employee->getName() . PHP_EOL;
