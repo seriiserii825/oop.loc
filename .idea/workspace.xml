@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04/01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/time.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,9 @@
       <workItem from="1585117828972" duration="4179000" />
       <workItem from="1585205116682" duration="5406000" />
       <workItem from="1585464645321" duration="1212000" />
+      <workItem from="1585503325714" duration="640000" />
+      <workItem from="1585545783876" duration="2023000" />
+      <workItem from="1589218205970" duration="3173000" />
     </task>
     <servers />
   </component>
@@ -109,6 +114,10 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="549" y="303" width="494" height="324" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.25.1600.875@0.25.1600.875" timestamp="1585118014246" />
+    <state x="571" y="115" width="769" height="881" key="CommitChangelistDialog2" timestamp="1589218551530">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="571" y="115" width="769" height="881" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1589218551530" />
     <state x="99" y="125" width="1402" height="680" key="DiffContextDialog" timestamp="1582836844358">
       <screen x="0" y="25" width="1600" height="875" />
     </state>
@@ -121,18 +130,21 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="600" y="281" width="391" height="369" key="NewPhpClassDialog/0.25.1600.875@0.25.1600.875" timestamp="1582836385130" />
-    <state x="620" y="391" width="351" height="149" key="NewPhpFileDialog" timestamp="1585121865298">
-      <screen x="0" y="25" width="1600" height="875" />
+    <state x="744" y="466" width="351" height="149" key="NewPhpFileDialog" timestamp="1589218576244">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="620" y="391" width="351" height="149" key="NewPhpFileDialog/0.25.1600.875@0.25.1600.875" timestamp="1585121865298" />
-    <state x="304" y="100" width="992" height="731" key="SettingsEditor" timestamp="1585208280237">
-      <screen x="0" y="25" width="1600" height="875" />
+    <state x="744" y="466" key="NewPhpFileDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1589218576244" />
+    <state x="365" y="115" width="992" height="731" key="SettingsEditor" timestamp="1589219664348">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1585208280237" />
-    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup" timestamp="1585465798799">
-      <screen x="0" y="25" width="1600" height="875" />
+    <state x="365" y="115" width="992" height="731" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1589219664348" />
+    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup" timestamp="1589221372102">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1585465798799" />
+    <state x="519" y="222" width="672" height="505" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1585548253962" />
+    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1589221372102" />
     <state x="623" y="289" width="672" height="678" key="search.everywhere.popup/0.25.1920.1175@0.25.1920.1175" timestamp="1582806632910" />
   </component>
 </project>
