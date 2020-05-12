@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03/05/01.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/time.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/01.php" beforeDir="false" afterPath="$PROJECT_DIR$/03/04/01.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +56,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03" />
+      <recent name="$PROJECT_DIR$/01/php" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/02/02" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/01/php" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -90,7 +91,8 @@
       <workItem from="1585464645321" duration="1212000" />
       <workItem from="1585503325714" duration="640000" />
       <workItem from="1585545783876" duration="2023000" />
-      <workItem from="1589218205970" duration="3173000" />
+      <workItem from="1589218205970" duration="3199000" />
+      <workItem from="1589261242385" duration="4239000" />
     </task>
     <servers />
   </component>
@@ -130,11 +132,11 @@
       <screen x="0" y="25" width="1600" height="875" />
     </state>
     <state x="600" y="281" width="391" height="369" key="NewPhpClassDialog/0.25.1600.875@0.25.1600.875" timestamp="1582836385130" />
-    <state x="744" y="466" width="351" height="149" key="NewPhpFileDialog" timestamp="1589218576244">
+    <state x="744" y="466" width="351" height="149" key="NewPhpFileDialog" timestamp="1589261654557">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="620" y="391" width="351" height="149" key="NewPhpFileDialog/0.25.1600.875@0.25.1600.875" timestamp="1585121865298" />
-    <state x="744" y="466" key="NewPhpFileDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1589218576244" />
+    <state x="744" y="466" width="351" height="149" key="NewPhpFileDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1589261654557" />
     <state x="365" y="115" width="992" height="731" key="SettingsEditor" timestamp="1589219664348">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
