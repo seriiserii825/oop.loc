@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="" />
+    <list default="true" id="e259f8eb-1df5-4700-bc40-d7023672c136" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,8 @@
       <workItem from="1585503325714" duration="640000" />
       <workItem from="1585545783876" duration="2023000" />
       <workItem from="1589218205970" duration="3199000" />
-      <workItem from="1589261242385" duration="4553000" />
+      <workItem from="1589261242385" duration="5463000" />
+      <workItem from="1589342025425" duration="2093000" />
     </task>
     <servers />
   </component>
@@ -138,11 +141,11 @@
     </state>
     <state x="304" y="100" width="992" height="731" key="SettingsEditor/0.25.1600.875@0.25.1600.875" timestamp="1585208280237" />
     <state x="365" y="115" width="992" height="731" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1589219664348" />
-    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup" timestamp="1589221372102">
+    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup" timestamp="1589266210863">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="519" y="222" width="672" height="505" key="search.everywhere.popup/0.25.1600.875@0.25.1600.875" timestamp="1585548253962" />
-    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1589221372102" />
+    <state x="623" y="263" width="807" height="609" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1589266210863" />
     <state x="623" y="289" width="672" height="678" key="search.everywhere.popup/0.25.1920.1175@0.25.1920.1175" timestamp="1582806632910" />
   </component>
 </project>
